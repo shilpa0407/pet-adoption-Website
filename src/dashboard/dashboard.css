@@ -1,0 +1,57 @@
+.rect {
+    position: absolute;
+    height: 210px;
+    width: 70%;
+    background: #FFFFFF;  
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    margin: 8.5rem;
+    left: 143px;
+    display: flex;
+}
+.dash1{
+width: 35%;
+height: 210px;
+background: rgba(243, 169, 83, 0.08);
+border-radius: 20px;
+justify-content:space-around;
+}
+
+ .dash1 p{
+    text-align: center;
+    font-size: small;
+    padding-top: 24px;
+}
+.dash1 h6{
+font-size: smaller;
+text-align: center;
+word-spacing: 10px;
+}
+.dash1 h1{
+text-align: center;
+word-spacing: 10px;
+}
+
+/*table*/
+
+.table{
+    position: absolute;
+    max-width: 950px;
+    height: 20px;
+    left: 290px;
+    top: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(81, 94, 99, 0.1);
+    border-radius: 30px;
+}
+
+.table .th{
+  color: #F3A953;
+}
+ .table .tr:hover{
+     background-color:rgba(243, 169, 83, 0.08) ;
+ }
+
+ .table .tbtn1{
+     word-spacing: 10px;
+ }

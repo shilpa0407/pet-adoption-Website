@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 215px;
+  background-color:white;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 3px 3px 6px 6px whitesmoke;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar .active {
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
+  text-transform: capitalize;
+  font-size: 23px;
+}
+.sidebar :hover:not(.active) {
+  background-color: #f3a85333;
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+div.content {
+  position: absolute;
+  width: 934px;
+  height: 0px;
+  left: 290px;
+  top: 85px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}  
+
+ div .h4{
+position: absolute;
+width: 214px;
+height: 54px;
+left: 1px;
+top: -45px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+color: #161616;
+} 
+div .button{
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  right: 100px;
+  top: -45px;
+  font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+color: black;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+border-radius: 10px;
+border: 0;
+ background: #F3A953;
+;
+  
+  
+  
+  
+
+}
+ 
+  
+
+ 

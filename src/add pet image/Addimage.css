@@ -1,0 +1,89 @@
+.heading{
+    position: absolute;
+    width: 294px;
+    height: 42px;
+    left: 575px;
+    top: 106px;
+    
+    line-height: 42px;
+    color: #161616;
+    text-align: center;
+    }
+
+  .app{
+    position: absolute;
+    width: 338px;
+    height: 428px;
+    left: 554px;
+    top: 187px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(81, 94, 99, 0.1);
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 15px;
+    margin-bottom: 10rem;
+    font-size:x-small;
+  }
+
+  
+  #file[type="file"] {
+      display: none;
+  }
+  .label-holder {
+	width: 100%;
+	height: 50px;
+  margin-top: 3em;
+  display: grid;
+  place-items: center;
+  }
+  .add-icon{
+    height: 50px;
+    width: 200px;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 4rem ;
+    cursor: pointer;
+    top:2rem;
+  }
+  
+  .result{
+    min-height: 100%;
+    max-height: auto;
+    width: 100%;
+    margin-top:1rem ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left; 
+    margin-top: 4rem;
+    
+  }
+  
+  img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    padding: 0.75rem; 
+  }
+  .add-img-button .save{
+    position: absolute;
+    width: 300px;
+    height: 35px;
+    left: 18px;
+    top: 260px;
+background: #F3A953;
+border-radius: 8px;
+border: none;
+}
+.add-img-button .cancel{
+    position: absolute;
+    width: 300px;
+    height: 35px;
+    left: 18px;
+    top: 300px;
+    border-radius: 8px;
+    border: none;
+}
